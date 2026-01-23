@@ -67,7 +67,6 @@ Você deve ver `root`/`uid=0` **dentro**, mas isso não te transforma em root **
 **Dentro do ambiente:**
 ```bash
 mount -t proc proc /proc
-mount -t sysfs sys /sys
 ps aux | head
 cat /proc/uptime
 ```
