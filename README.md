@@ -146,7 +146,6 @@ Envie prints com comando + output, numerados **E1…E5**:
 No host:
 ```bash
 sudo umount -l /debian/proc 2>/dev/null || true
-sudo umount -l /debian/sys 2>/dev/null || true
 sudo rm -rf /debian
 ```
 
